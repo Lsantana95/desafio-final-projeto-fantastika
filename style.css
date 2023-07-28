@@ -1,0 +1,414 @@
+/* Reset da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    height: 14vh;
+    padding: 0 35px
+}
+
+header img {
+    width: 3vw;
+    margin-right: 10px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+header ul {
+    display: flex;
+    width: 10vw;
+    justify-content: space-around;
+}
+
+header h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+nav img {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    margin-right: 18px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Section 1 */
+.primeiraSessao{
+    background-image: url("./assets/cao1.png");  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.patacachorro{
+    margin-top: 20px;
+    height: 20vh;
+}
+
+.primeiraSessao div{
+    height: 120vh;
+    width: 40vw;
+    text-align: center;
+    color: #fff;
+}
+
+.primeiraSessao h2{
+    padding-bottom: 4px;
+    margin-top: 74px;
+    text-align:center;
+    color: #fff;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Section 2 */
+.segundaSessao {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    height: 120vh;
+    background-image: url("./assets/cao2.png");
+    background-position: center;
+    background-size: 100% 100%;
+    flex-direction: column;
+}
+
+.segundaSessao div{
+    margin-left: 30px;
+    width: 50%;
+    height: 50%;
+}
+
+.segundaSessao h2{
+    color: #000000;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.segundaSessao p{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.botao-secao2 {
+    background-color: #3A342F;
+    color: #F4F2F3;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    border-radius: 44px;
+    cursor: pointer;
+    margin-top: 30px;
+    width:19vw;
+    height: 10vh;
+}
+
+/* Section 3 */
+.terceiraSessao{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url("./assets/cao3.png");
+    height: 120vh;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.terceiraSessao div{
+    width: 50%;
+    height: 65%;
+    color: #F4F2F3;
+    margin-right: 30px;
+}
+
+.terceiraSessao h2 {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.terceiraSessao p{
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.botao-secao3{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 44px;
+    cursor: pointer;
+    margin-top: 40px;
+    width:19vw;
+    height: 10vh;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/* Section 4 */
+.quartaSessao {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 25vh;
+    background-color: #fff;
+}
+
+.textos h2 {
+    color: #FD6A9A;
+    font-family: "Roboto" sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.fotos img {
+    text-align: left;
+    height: 3vh;
+    width: 18vw; 
+    margin: 30px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#EB4A7B;
+    color: #FFFFFF;
+    height: 45vh;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.div-container1 h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 35px;
+
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.div-container1 li{
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.div-container2 h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 35px;
+
+    color: #FFF;
+    font-family: "Roboto",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.div-container2 li{
+    margin: 10px;
+    font-size: 14px;
+
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.div-container3 h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 35px;
+
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.div-container3 li{
+    margin: 10px;
+    font-size: 14px;
+
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Responsivo */
+@media(max-width:500px) {
+  /*configurações iniciais da versão mobile*/
+.insta{
+    display: none;
+} 
+.youtube{
+    display: none;
+}
+.mobile {
+    display: none;
+}
+.logomarca,
+  header img {
+    width: 10vw;
+}
+
+/* Primeira Sessão */
+.primeiraSessao {
+    background-image: url("./assets/cao1-mobile.png");
+  
+}
+section .patacachorro {
+    width: 10vh;
+}
+
+.primeiraSessao div {
+    font-size: 10px;
+}
+  
+.primeiraSessao h2{
+    font-size: 30px;
+    margin-top: 65px;
+}
+
+/* Segunda Sessão */
+.segundaSessao {
+    background-image: url("./assets/cao2-mobile.png");
+    align-items: flex-start;
+}
+
+.segundaSessao h2 {
+    margin-top: -180px;
+    font-size: 35px;
+}
+
+.segundaSessao div {
+    width: 90vw;
+    margin-top: 20px;
+}
+.segundaSessao p {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+.botao-secao2 {
+    width: 60%;
+    margin-top: -10px;
+}
+
+/* Terceira Sessão */
+.terceiraSessao {
+    background-image: url("./assets/cao3-mobile.png");
+}
+
+.terceiraSessao h2 {
+    margin-top: -60px;
+    font-size: 25px;
+}
+
+.terceiraSessao p {
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.terceiraSessao div {
+    margin-right: 35%;
+}
+
+.botao-secao3 {
+    width: 80%;
+    margin-top: 50px;
+    margin-right: 55%;
+}
+
+/* Quarta Sessão */
+.quartaSessao {
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos img {
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .div-container1,
+footer .div-container2,
+footer .div-container3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 10px;
+}
+
+}
